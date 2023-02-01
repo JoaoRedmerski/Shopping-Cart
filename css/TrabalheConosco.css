@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body h1{
+    font-family: sans-serif;
+    color: purple;
+    margin-left: 7%;
+}
+
+body{
+    background-color: rgba(198, 171, 247, 0.712);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429D;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+body label{
+    margin-bottom: 0.2em;
+    color: #59429D;
+    display: block;
+}
+
+input, select, textarea, button{
+    border-radius: 4px;
+}
+
+body input[type="text"], body input[type="email"], body select, body textarea{
+    padding: 0.2em;
+    border: 1px solid #c9429D;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
+
+body button{
+    font-size: 1.2em;
+    background: #59429D;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+body button:hover{
+    background: #ccbbff;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.nome{ 
+    align-items: center;
+}
+
+.carro {
+    position: absolute;
+    display: flex;
+    margin-left: 275px;
+}
